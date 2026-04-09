@@ -39,6 +39,8 @@ export function somarPares(numeros) {
   for (const numero of numeros) {
     if(numero % 2 === 0){
       return numero += numero;
+    } else {
+      return 0;
     }
   }
 }
