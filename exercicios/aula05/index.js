@@ -47,5 +47,13 @@ export function somarPares(numeros) {
 
 // Exercício 5 — contarLetra
 export function contarLetra(texto, letra) {
-  // escreva seu código aqui
+  let sum = 0;
+  let caractere = 0;
+  for (let i = 0; i < texto.length; i++ ){
+    if(i == letra){
+      caractere + 1;
+      sum += caractere;
+    }
+  }
+  return sum;
 }
