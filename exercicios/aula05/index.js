@@ -36,7 +36,12 @@ export function verificarAprovacao(nota) {
 
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
-  // escreva seu código aqui
+  for (const numero of numeros) {
+    if(numero % 2 === 0){
+      let soma = 0;
+      return soma = soma + numero;
+    }
+  }
 }
 
 // Exercício 5 — contarLetra
