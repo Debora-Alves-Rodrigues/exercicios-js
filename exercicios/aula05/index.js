@@ -8,11 +8,11 @@
 // Exercício 1 — classificarIdade
 export function classificarIdade(idade) {
   if(idade < 12){
-    return console.log('criança');
+    return console.log("criança");
   } else if(idade<= 17){
-    return console.log('adolescente');
+    return console.log("adolescente");
   } else{
-    return console.log('adulto');
+    return console.log("adulto");
   }
 }
 
