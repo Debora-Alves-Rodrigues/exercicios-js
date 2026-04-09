@@ -36,15 +36,13 @@ export function verificarAprovacao(nota) {
 
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
+  let sum = 0;
   for (const numero of numeros) {
-    console.log(numero);
-    for (let i = 0; i < numero.length; i++ ) {
       if(numero[i] % 2 === 0){
-        let sum = 0;
-        return sum += numeros[i];
+        sum += numeros[i];
       }
-    }
   }
+  return sum;
 }
 
 // Exercício 5 — contarLetra
