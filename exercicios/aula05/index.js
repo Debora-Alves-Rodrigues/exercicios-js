@@ -18,7 +18,9 @@ export function classificarIdade(idade) {
 
 // Exercício 2 — calcularDesconto
 export function calcularDesconto(preco, percentual) {
-  // escreva seu código aqui
+  console.log(preco);
+  console.log(percentual);
+  return (preco - ((preco * percentual)/100));
 }
 
 // Exercício 3 — verificarAprovacao
