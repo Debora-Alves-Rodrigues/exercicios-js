@@ -36,10 +36,11 @@ export function verificarAprovacao(nota) {
 
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
-  for (const numero of numeros) {
-    if(numero % 2 === 0){
-      return numero += numero;
-    } else {
+  for (let i = 0; i < numeros.length; i++ ) {
+    if(numeros[i] % 2 === 0){
+    let sum = 0;
+    sum += numeros[i];
+  } else {
       return 0;
     }
   }
