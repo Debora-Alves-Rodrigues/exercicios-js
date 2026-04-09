@@ -41,7 +41,7 @@ export function somarPares(numeros) {
       let sum = 0;
       return sum += numeros[i];
     } else {
-        return 0;
+      return 0;
     }
   }
 }
