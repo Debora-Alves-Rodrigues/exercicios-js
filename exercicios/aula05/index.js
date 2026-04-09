@@ -38,9 +38,9 @@ export function verificarAprovacao(nota) {
 export function somarPares(numeros) {
   let sum = 0;
   for (const numero of numeros) {
-      if(numero[i] % 2 === 0){
-        sum += numeros[i];
-      }
+    if(numero % 2 === 0){
+      sum += numeros[i];
+    }
   }
   return sum;
 }
