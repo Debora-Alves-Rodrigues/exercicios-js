@@ -19,7 +19,7 @@ export function filtrarAprovados(alunos) {
 // Exercício 3 — extrairNomes
 export function extrairNomes(alunos) {
   const nomes = alunos.map((aluno) => aluno.nome);
-  console.log(nomes)
+  return console.log(nomes)
 }
 
 // Exercício 4 — buscarAluno
