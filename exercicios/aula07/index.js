@@ -7,7 +7,10 @@
 
 // Exercício 1 — objetoParaJSON
 export function objetoParaJSON(objeto) {
-  // escreva seu código aqui
+  //JSON.stringify() — objeto → texto JSON:
+  const textoJSON = JSON.stringify(objeto);
+  console.log(textoJSON);
+  console.log(typeof textoJSON);
 }
 
 // Exercício 2 — jsonParaObjeto
