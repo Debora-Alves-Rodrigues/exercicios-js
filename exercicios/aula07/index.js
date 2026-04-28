@@ -9,8 +9,7 @@
 export function objetoParaJSON(objeto) {
   //JSON.stringify() — objeto → texto JSON:
   const textoJSON = JSON.stringify(objeto);
-  console.log(textoJSON);
-  console.log(typeof textoJSON);
+  return textoJSON;
 }
 
 // Exercício 2 — jsonParaObjeto
