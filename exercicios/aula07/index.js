@@ -38,7 +38,8 @@ function simularConsulta(id) {
 
 // Exercício 4 — buscarDados
 export async function buscarDados(id) {
-  // escreva seu código aqui
+  const resultado = await simularConsulta(id);
+  return resultado;
 }
 
 // Exercício 5 — dividirSeguro
