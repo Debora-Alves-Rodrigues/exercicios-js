@@ -19,7 +19,9 @@ export function jsonParaObjeto(texto) {
 
 // Exercício 3 — clonarObjeto
 export function clonarObjeto(objeto) {
-  // escreva seu código aqui
+  const textoJSON = JSON.stringify(objeto);
+  const obj = JSON.parse(textoJSON);
+  return obj;
 }
 
 // ──────────────────────────────────────────────────
