@@ -46,6 +46,5 @@ export async function buscarDados(id) {
 export async function dividirSeguro(a, b) {
   if(b === 0)
     throw new Error('Divisão por zero');
-  await dividirSeguro(a,b);
   return a/b; 
 }
