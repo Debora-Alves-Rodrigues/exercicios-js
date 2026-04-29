@@ -45,10 +45,10 @@ export async function buscarDados(id) {
 // Exercício 5 — dividirSeguro
 export async function dividirSeguro(a, b) {
   try {
-    if(b === 0){
+    if(b === 0)
       throw new Error('Divisão por zero');
-    }
-    return a / b;
+    const resultado = await dividirSeguro(a, b);
+    return resultado; 
   } catch (erro) {
     return erro.message;
   }
